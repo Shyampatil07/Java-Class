@@ -1,0 +1,44 @@
+package com.opt;
+
+public class Operaters {
+	public static void main(String[] args) {
+//	1	int a=10;
+//		a+=5;
+//		a-=3;
+//		a*=2;
+//		a/=4;
+//		System.out.println(a);   6
+		    
+//	2	int a=5,b=10,c=15;
+//		System.out.println((a<b)&&(b<c));  true
+		
+//	3	System.out.println((a>b)||(b<c));    true
+//		System.out.println(!(a<c));         false
+		
+		
+//	4	int x=10,y=20;
+//		System.out.println(x++ + ++y);  31
+		
+		
+//	5	int a=5,b=2;
+//		System.out.println(a%b);    1
+		
+		
+//	6	int p=7,q=3;
+//		System.out.println(p*q+p/q);  23
+		
+//	7	int n=5; 
+//		System.out.println(++n + n++);   12
+		
+		
+//	9	int a=10,b=5,c;
+//		c=a++ + --b + a*b;
+//		System.out.println(c);    58
+		
+//	10	int a=4,b=2;
+//		System.out.println(a<<b);    16  
+		
+	}
+	
+
+}
