@@ -1,1 +1,49 @@
+package ifelse;
+
+public class Ifelse {
+	
+	public static void main(String[] args) {
+//	1	int a=5;
+//		
+//		 if (a % 2 == 0) {
+//	            System.out.println(a + " is Even.");
+//	        } else {
+//	            System.out.println(a + " is Odd.");
+//	        }                                                   5 is Odd.
+//	2	int age=21;
+//		
+//		if (age >= 18) {
+//            System.out.println("You are eligible to vote.");
+//        } else {
+//            System.out.println("You are not eligible to vote.");
+//        }                                                            You are eligible to vote.
+//	3/4	int a=-8;
+//		
+//		if (a > 0) {
+//            System.out.println(a + " is Positive.");
+//        } else if (a < 0) {
+//            System.out.println(a + " is Negative.");
+//        } else {
+//            System.out.println("The number is Zero.");
+//        }                                                    -8 is Negative.
+//	5	int year=2025;
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//            System.out.println(year + " is a Leap Year.");
+//        } else {
+//            System.out.println(year + " is NOT a Leap Year.");
+//        }                                                       2025 is NOT a Leap Year.
+//	6	int a=77,b=98;
+//		
+//		if (a > b) {
+//            System.out.println(a + " is greater than " + b);
+//        } else if (b > a) {
+//            System.out.println(b + " is greater than " + a);
+//        } else {
+//            System.out.println("Both numbers are equal.");
+//        }                                                     98 is greater than 77
+		
+	}
+
+}
 
