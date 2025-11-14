@@ -1,0 +1,60 @@
+package ifelse;
+
+public class Ifelse3 {
+	
+	public static void main(String[] args) {
+		
+//		int number = 7; 
+//
+//        if (number % 2 == 0) {
+//            System.out.println("The number is Even");
+//        } else {
+//            System.out.println("The number is Odd");
+//        }                                                  The number is Odd
+//		
+//		
+//		int year = 2024; 
+//
+//        if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+//            System.out.println(year + " is a Leap Year");
+//        } else {
+//            System.out.println(year + " is Not a Leap Year");
+//        }                                                     2024 is a Leap Year
+//		
+//		int number = -10; 
+//
+//        if (number > 0) {
+//            System.out.println("The number is Positive");
+//        } else if (number < 0) {
+//            System.out.println("The number is Negative");
+//        } else {
+//            System.out.println("The number is Zero");
+//        }                                                             The number is Negative
+//		
+//		int marks = 82; 
+//
+//        if (marks >= 90 && marks <= 100) {
+//            System.out.println("Grade A");
+//        } 
+//        else if (marks >= 75 && marks <= 89) {
+//            System.out.println("Grade B");
+//        } 
+//        else if (marks >= 50 && marks <= 74) {
+//            System.out.println("Grade C");
+//        } 
+//        else if (marks >= 35 && marks <= 49) {
+//            System.out.println("Grade D");
+//        } 
+//        else if (marks < 35 && marks >= 0) {
+//            System.out.println("Fail");
+//        } 
+//        else {
+//            System.out.println("Invalid Marks");
+//        }                                                  Grade B
+//		
+//		
+		
+
+	}
+
+}
