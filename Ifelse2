@@ -1,0 +1,31 @@
+package ifelse;
+
+public class Ifelse2 {
+	public static void main(String[] args) {
+		
+		
+//		 int age = 20; 
+//
+//	        if (age > 18) {
+//	            System.out.println("Adult");
+//	        }                                             Adult
+//	        
+//		 int a = 50; 
+//
+//	        if (a % 10 == 0) {
+//	            System.out.println("The number is divisible by 10");
+//	        } else {
+//	            System.out.println("The number is not divisible by 10");
+//	        }                                                              The number is divisible by 10
+//		
+//		int temperature = 35;
+//
+//        if (temperature > 30) {
+//            System.out.println("Hot Day");
+//        }                                               Hot Day
+//		
+		
+		
+	}
+
+}
