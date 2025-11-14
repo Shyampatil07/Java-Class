@@ -1,0 +1,163 @@
+package ifelse;
+
+public class Ifelse4 {
+
+	
+	public static void main(String[] args) {
+		
+//		
+//		 int day = 4; // 
+//
+//	        if (day == 1) {
+//	            System.out.println("Monday");
+//	        } 
+//	        else if (day == 2) {
+//	            System.out.println("Tuesday");
+//	        } 
+//	        else if (day == 3) {
+//	            System.out.println("Wednesday");
+//	        } 
+//	        else if (day == 4) {
+//	            System.out.println("Thursday");
+//	        } 
+//	        else if (day == 5) {
+//	            System.out.println("Friday");
+//	        } 
+//	        else if (day == 6) {
+//	            System.out.println("Saturday");
+//	        } 
+//	        else if (day == 7) {
+//	            System.out.println("Sunday");
+//	        } 
+//	        else {
+//	            System.out.println("Invalid Day Number");
+//	        }                                               Thursday
+//		
+//		int a = 5, b = 5, c = 8;
+//
+//        if (a == b && b == c) {
+//            System.out.println("Equilateral Triangle");
+//        } 
+//        else if (a == b || b == c || a == c) {
+//            System.out.println("Isosceles Triangle");
+//        } 
+//        else {
+//            System.out.println("Scalene Triangle");
+//        }                                                  Isosceles Triangle
+//		
+//		
+//		int age = 45; 
+//
+//        if (age >= 0 && age <= 12) {
+//            System.out.println("Child");
+//        } 
+//        else if (age >= 13 && age <= 19) {
+//            System.out.println("Teenager");
+//        } 
+//        else if (age >= 20 && age <= 59) {
+//            System.out.println("Adult");
+//        } 
+//        else if (age >= 60) {
+//            System.out.println("Senior Citizen");
+//        } 
+//        else {
+//            System.out.println("Invalid Age");
+//        }                                                                     Adult
+//
+//		
+//		int temp = 18; 
+//
+//        if (temp >= 35) {
+//            System.out.println("Hot");
+//        } 
+//        else if (temp >= 25 && temp <= 34) {
+//            System.out.println("Warm");
+//        } 
+//        else if (temp >= 15 && temp <= 24) {
+//            System.out.println("Cool");
+//        } 
+//        else if (temp < 15) {
+//            System.out.println("Cold");
+//        } 
+//        else {
+//            System.out.println("Invalid Temperature");
+//        }
+//        Cool
+		
+//
+//        int number = 0; 
+//
+//        if (number > 0) {
+//            System.out.println("Positive Number");
+//        } 
+//        else if (number < 0) {
+//            System.out.println("Negative Number");
+//        } 
+//        else {
+//            System.out.println("Zero");
+//        }Zero
+
+//		
+//		int age = 30; 
+//
+//        if (age >= 18) {
+//            System.out.println("Eligible to Vote");
+//
+//            if (age >= 25) {
+//                System.out.println("Eligible to Contest in Elections");
+//            } else {
+//                System.out.println("Not Eligible to Contest in Elections");
+//            }
+//        } 
+//        else {
+//            System.out.println("Not Eligible to Vote");
+//        }
+//        Eligible to Vote
+//        Eligible to Contest in Elections
+
+//		
+//		int year = 2000; 
+//
+//        // Check Leap Year
+//        if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+//            System.out.println(year + " is a Leap Year");
+//
+//            // Check Century Year
+//            if (year % 100 == 0) {
+//                System.out.println(year + " is a Century Year");
+//            } else {
+//                System.out.println(year + " is Not a Century Year");
+//            }
+//
+//        } else {
+//            System.out.println(year + " is Not a Leap Year");
+//        }
+//        2000 is a Leap Year
+//        2000 is a Century Year
+//		
+		
+//		int number = 64; 
+//
+//        // Check if number is even
+//        if (number % 2 == 0) {
+//            System.out.println("The number is Even");
+//
+//            // Now check if it's greater than 50
+//            if (number > 50) {
+//                System.out.println("The number is greater than 50");
+//            } else {
+//                System.out.println("The number is not greater than 50");
+//            }
+//
+//        } else {
+//            System.out.println("The number is Odd");
+//        }
+//		
+//		
+//        The number is Even
+//        The number is greater than 50
+//		
+		
+		
+	}
+}
