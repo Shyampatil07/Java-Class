@@ -1,0 +1,38 @@
+package switchCase;
+
+public class Switch3 {
+	public static void main(String[] args) {
+
+		// 3. Accept two numbers and an operator (+, -, *, /) from the user and perform
+		// the operation using a switch case.
+
+		char operation = '%';
+
+		int a = 5, b = 89;
+
+		switch (operation) {
+
+		case '+':
+			System.out.println("Add of " + a + " + " + b + "  is = " + (5 + 89));
+			break;
+
+		case '-':
+			System.out.println("SUB of " + a + " - " + b + " is = " + (5 - 89));
+			break;
+		case '*':
+			System.out.println("MUL of " + a + " * " + b + " is = " + (5 * 89));
+			break;
+		case '/':
+			System.out.println("DIV of " + a + " / " + b + " is =  " + (5 / 89));
+			break;
+		case '%':
+			System.out.println("MOD of " + a + " % " + b + " is =  " + (5 % 89));
+			break;
+		default:
+			System.out.println("Invalid Operation...!");
+
+		}
+
+	}
+
+}
