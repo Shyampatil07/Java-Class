@@ -1,0 +1,30 @@
+package switchCase;
+
+public class Switch5 {
+	public static void main(String[] args) {
+		
+//		5. Input color name (Red, Yellow, or Green) and print the appropriate action:
+//
+//			Red → Stop
+//			Yellow → Ready
+//			Green → Go
+		
+		String color = "Red";
+
+        switch (color) {
+            case "Red":
+                System.out.println("Stop!");
+                break;
+            case "Yellow":
+                System.out.println("Ready!");
+                break;
+            case "Green":
+                System.out.println("Go!");
+                break;
+            default:
+                System.out.println("Invalid color");
+        }
+		
+	}
+
+}
