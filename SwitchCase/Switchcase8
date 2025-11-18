@@ -1,0 +1,27 @@
+package switchCase;
+
+public class Switch8 {
+	public static void main(String[] args) {
+		
+		//8. Accept a category type (Domestic, Commercial, Industrial) and print the electricity rate per unit using a switch case.
+		String category = "Commercial";
+		switch (category) {
+		
+		case("Domestic"):System.out.println("electricity rate per unit is 11.00Rs");
+		break;
+		
+		case("Commercial"):System.out.println("electricity rate per unit is 12.00Rs");
+		break;
+		
+		case("Industrial"):System.out.println("electricity rate per unit is 13.50Rs");
+		break;
+		
+		default:
+            System.out.println("Invalid Category!");
+            break;
+		}
+		
+		
+	}
+
+}
