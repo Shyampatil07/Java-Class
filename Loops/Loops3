@@ -1,0 +1,26 @@
+package loops;
+
+public class Loops3 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		//5 Print the table of 5 using a loop.
+//		for(int i=1;i<=10;i++) {
+//			
+//			System.out.println(i*5);
+//		}
+//		
+		
+		
+		//6 Print the table of any number (e.g., n = 7).
+		
+//		int n=9;
+//		for(int i=1;i<=10;i++) {
+//			System.out.println(i*n);
+//		}
+//		
+	}
+
+}
