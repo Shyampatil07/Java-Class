@@ -1,0 +1,32 @@
+package loops;
+
+public class Loops25 {
+	
+	public static void main(String[] args) {
+		
+		//print the sum of digits of all num 1 t0 50.
+		
+//		int sum=0;
+//		for(int i=1; i<=50; i++) {
+//			sum=i+sum;
+//		}
+//		System.out.println(sum);
+//		
+//		int i=1, sum=0;
+//		while(i<=50) {
+//			sum=i+sum;
+//			i++;
+//		}
+//		System.out.println(sum);
+		
+		int i=1, sum=0;
+		do {
+			sum=i+sum;
+		
+			i++;
+		}while(i<=50);
+			System.out.println(sum);
+		
+	}
+
+}
