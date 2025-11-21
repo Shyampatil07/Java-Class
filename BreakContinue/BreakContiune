@@ -1,0 +1,29 @@
+package breaks;
+
+public class Break {
+	public static void main(String[] args) {
+		
+		
+		for (int i = 1; i <= 100; i++) {
+			if(i==26) {
+				break;
+			}
+			System.out.println(i); 
+			if(i==25) {
+				for(int y=76;y<=100;y++) {
+					System.out.println(y);
+				}
+			}
+			
+		}
+		
+		
+//		        for (int i = 1; i <= 100; i++) {
+//		            if (i > 25 && i <= 75) {
+//		                continue;  
+//		            }
+//		            System.out.println(i );
+//		        }
+	}
+
+}
