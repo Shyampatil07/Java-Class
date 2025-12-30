@@ -1,0 +1,20 @@
+package encap;
+
+public class Studentinfo {
+
+	public static void main(String[] args) {
+		
+		Student s = new Student();
+		
+		s.setBalance(560);
+		System.out.println(s.getBalance());
+		s.deposit(40);
+		System.out.println(s.getBalance());
+		s.withdraw(100);
+		System.out.println(s.getBalance());
+//		s.setAge(345);
+//		s.setName("khjgd");
+//		System.out.println(s.getAge());
+//		System.out.println(s.getName());
+	}
+}
