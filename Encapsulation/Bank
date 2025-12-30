@@ -1,0 +1,19 @@
+package encap;
+
+public class Encapinfo {
+	
+	public static void main(String[] args) {
+		Encapsulation e = new Encapsulation();
+		e.setAccNo(65755l);
+		e.setBeach(876);
+		e.setBankName("ghgh");
+		e.setCity("khnhh");
+		e.setIfscCode("jgghc");
+		System.err.println(e.getAccNo());
+		System.err.println(e.getBankName());
+		System.err.println(e.getBeach());
+		System.err.println(e.getCity());
+		System.err.println(e.getIfscCode());
+   }
+
+}
