@@ -1,0 +1,17 @@
+package constructor;
+
+ class Car {
+	int price;
+	String name;
+	
+	Car(){
+		System.out.println("Car started");
+	}
+	Car(int a, String b) {
+		price = a;
+		name=b;
+	}
+	
+
+	
+}
