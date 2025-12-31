@@ -1,0 +1,19 @@
+package method;
+
+public class Multiply {
+	private String name;
+	
+	public int multp (int a,int b) {
+		int sum= a*b;
+		return sum;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}
