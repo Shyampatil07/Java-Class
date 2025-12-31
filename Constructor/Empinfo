@@ -1,0 +1,11 @@
+package constructor;
+
+public class Empifo {
+	
+	public static void main(String[] args) {
+        Car c = new Car();
+		Car e = new Car(23,"hdg");
+System.out.println(e.price + e.name);
+	}
+
+}
