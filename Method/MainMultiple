@@ -1,0 +1,11 @@
+package method;
+
+public class MainMultiple {
+	public static void main(String[] args) {
+		Multiply m1 = new Multiply();
+	System.out.println(m1.multp(8,3));
+	}
+	
+	
+
+}
