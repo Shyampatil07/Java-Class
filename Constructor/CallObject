@@ -1,0 +1,12 @@
+package constructor;
+
+public class CallObject {
+	public static void main(String[] args) {
+		Object o =new Object();
+		Object o1 =new Object(76);
+	}
+	
+	
+	
+
+}
