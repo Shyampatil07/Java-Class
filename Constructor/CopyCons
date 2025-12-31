@@ -1,0 +1,14 @@
+package constructor;
+
+public class Copycon {
+	
+	public static void main(String[] args) {
+		
+		Cons p1 = new Cons("Auhal",25);
+		Cons p2 = new Cons(p1);
+		
+		p1.display();
+		p2.display();
+	}
+
+}
