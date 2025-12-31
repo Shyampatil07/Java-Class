@@ -1,0 +1,29 @@
+package constructor;
+
+public class Student {
+	
+	private int id ;
+//	private String name;
+	
+	public int getId () {
+		return id;
+	}
+	
+	public void setId(int a) {
+		if(a>0) {
+			this.id=a;
+		}
+		else {
+		System.err.println("Err");
+	}
+	}
+
+//	public String getName() {
+//		return name;
+//	}
+//
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+
+}
