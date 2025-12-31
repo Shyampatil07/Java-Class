@@ -1,0 +1,25 @@
+package ecm;
+
+public class Account {
+
+	private int balance;
+
+	public int getBalance() {
+		return balance;
+	}
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
+	int deposit (int depo) {
+		 balance=balance + depo;
+		return balance;
+		
+	}
+	int withdraw (int with) {
+		 balance = balance - with;
+		return balance;
+	}
+	
+}
