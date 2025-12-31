@@ -1,0 +1,27 @@
+package ecm;
+
+public class Student {
+
+	private int marks;
+	private String name;
+	
+	Student(int marks,String name){
+		this.name = name;
+		this.marks = marks;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	  public char getGrade() {
+	        if (marks >= 90) return 'A';
+	        else if (marks >= 75) return 'B';
+	        else if (marks >= 60) return 'C';
+	        else if (marks >= 40) return 'D';
+	        else return 'F';
+	    }
+}
