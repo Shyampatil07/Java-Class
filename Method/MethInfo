@@ -1,1 +1,14 @@
 
+package method;
+
+public class MethInfo {
+	
+	public static void main(String[] args) {
+		
+		Method name = new Method();
+		 name.bankDetails(33, "IUY", 7655,"jhgdd" ,"poou");
+		System.out.println(987%10);
+		
+	}
+
+}
