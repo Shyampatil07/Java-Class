@@ -1,0 +1,12 @@
+package constructor;
+
+public class Studeinfo {
+	public static void main(String[] args) {
+		Student s =new Student();
+		s.setId(0);
+		
+		System.out.println(s.getId());
+		
+	}
+
+}
