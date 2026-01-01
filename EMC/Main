@@ -20,6 +20,16 @@ public class Main {
         System.out.println("Marks: " + s1.getMarks());
         System.out.println("Grade: " + s1.getGrade());
 	    
+        
+        
+        Library l =new Library("Rich dad Poor dad", "Shaym", 9834) ;
+        l.display();
+        
+        Library l1 =new Library("Rich dad Poor dad", "Shaym", 9834) ;
+        l.display();
+        
+        Library l2 =new Library("Rich dad Poor dad", "Shaym", 9834) ;
+        l.display();
 	}
 
 }
