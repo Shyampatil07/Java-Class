@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Parent {
+	int x =10;
+	Parent(int a) {
+		System.out.println("this is ARGS Constr.. from Parent Class ");
+	}
+	void showA() {
+		
+		System.out.println("jgg");
+	}
+
+
+}
