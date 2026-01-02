@@ -1,0 +1,18 @@
+package inheritance;
+
+public class ChildB extends Parent {
+
+	ChildB() {
+		super(7);
+		// TODO Auto-generated constructor stub
+	}
+	void showC() {
+		System.out.println("gugfdtyur");
+	}
+	public static void main(String[] args) {
+		ChildB c = new ChildB();
+System.out.println(c.x);
+
+
+	}
+}
