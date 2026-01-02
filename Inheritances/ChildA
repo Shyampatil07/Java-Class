@@ -1,0 +1,19 @@
+package inheritance;
+
+public class ChildA extends Parent {
+	int y=20;
+	ChildA() {
+		super(12);
+		System.out.println("This is NO Args Constr of Child Class");
+	}
+	void showB() {
+		System.out.println("guyur");
+	}
+
+	public static void main(String[] args) {
+		ChildA c = new ChildA( );
+System.out.println(c.x);
+System.out.println(c.y);
+	}
+
+}
