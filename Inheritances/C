@@ -1,0 +1,16 @@
+package inheritance;
+
+public class C extends A {
+
+	void showC() {
+		System.out.println("gugfdtyur");
+	}
+public static void main(String[] args) {
+	C a = new C() ;
+//	a.showB();
+	a.showA();
+	a.showC();
+//	System.out.println(a.b);
+	System.out.println(a.a);
+}
+}
