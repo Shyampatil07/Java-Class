@@ -1,0 +1,12 @@
+package inheritance;
+
+public class Animal {
+
+   Animal(){
+	System.out.println("dhyr");
+}
+	public void eating() {
+		System.out.println("Dog is Eating ...! ");
+	}
+	
+}
