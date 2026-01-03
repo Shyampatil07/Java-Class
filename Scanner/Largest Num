@@ -1,0 +1,37 @@
+package Scanner;
+
+import java.util.Scanner;
+
+import flowcontrolstatements.ifelse.Ifelse;
+
+public class Scan {
+	 public static void main(String[] args) {
+
+	        Scanner sc = new Scanner(System.in);
+
+	        System.out.print("Enter first number: ");
+	        int a = sc.nextInt();
+
+	        System.out.print("Enter second number: ");
+	        int b = sc.nextInt();
+
+	        System.out.print("Enter third number: ");
+	        int c = sc.nextInt();
+	        
+	        if(a>b) {
+	        	if(a>c) {
+	        		System.out.println("a is largest");
+	        	}
+	        }
+	        else if (b>c) {
+				System.out.println("b is lagrest");
+			}	
+	        else {
+	        	System.out.println("c is largest");
+	        }
+	        sc.close();
+	    }
+
+	
+	
+}
