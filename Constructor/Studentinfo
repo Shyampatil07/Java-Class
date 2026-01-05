@@ -2,6 +2,7 @@ package constructor;
 
 public class Studeinfo {
 	public static void main(String[] args) {
+//obj cretaion
 		Student s =new Student();
 		s.setId(0);
 		
