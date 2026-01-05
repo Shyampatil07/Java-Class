@@ -7,6 +7,7 @@ package constructor;
 	Car(){
 		System.out.println("Car started");
 	}
+//car obj cretaion
 	Car(int a, String b) {
 		price = a;
 		name=b;
