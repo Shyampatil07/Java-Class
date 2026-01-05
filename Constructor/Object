@@ -6,7 +6,8 @@ public class Object {
 	Object(){
 		System.out.println("18 is reqired");
 	}
-	
+
+//same as calass
 	Object(int age){
 		this.age=age;
 		System.out.println("Current age is  "+age );
