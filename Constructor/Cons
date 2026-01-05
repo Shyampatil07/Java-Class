@@ -9,7 +9,9 @@ public class Cons {
 		this.name=name;
 		this.age=age;
 	}
-	
+
+
+//psra
 	Cons(Cons c){
 		this.name= c.name;
 		this.age=c.age;
