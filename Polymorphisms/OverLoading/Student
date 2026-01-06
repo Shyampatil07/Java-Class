@@ -1,0 +1,22 @@
+package Polymorphisms.overLoading;
+
+public class Student {
+	
+	Student(){
+		System.out.println("Default");
+	}
+	
+	Student(int id){
+		System.out.println(id);
+	}
+	
+	Student(int id , String name){
+		System.out.println(id+ " "+ name);
+	}
+public static void main(String[] args) {
+	Student s=new Student();
+	Student e=new Student(98);
+	Student r=new Student(9, "jdsg");
+}
+	
+}
