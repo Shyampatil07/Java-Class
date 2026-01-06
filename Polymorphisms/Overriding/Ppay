@@ -1,0 +1,17 @@
+package Polymorphisms.overriding;
+
+public class Ppay  extends Bank{
+
+	@Override
+	public void payment() {
+		System.out.println("niihug byygd");
+		super.a=876;
+		super.payment();
+	}
+	
+	public static void main(String[] args) {
+		Ppay p = new Ppay();
+		p.payment();
+		System.out.println(p.a);
+	}
+}
