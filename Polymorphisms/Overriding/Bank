@@ -1,0 +1,10 @@
+package Polymorphisms.overriding;
+
+public class Bank {
+	
+	int a;
+	public void payment() {
+		System.out.println("payment from Bank...");
+	}
+
+}
