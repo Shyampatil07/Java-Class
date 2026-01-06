@@ -1,0 +1,20 @@
+package Polymorphisms.overLoading;
+
+public class Samename {
+
+	public int add(int a,int b) {
+		int c=a+b;
+		return c;
+	}
+	public int add(int a,int b,int c) {
+		int d=a+b;
+		return d;
+	}
+	public static void main(String[] args) {
+		Samename s=new Samename();
+		System.out.println(s.add(8, 9));;
+		s.add(876, 76, 8);
+	}
+
+
+}
