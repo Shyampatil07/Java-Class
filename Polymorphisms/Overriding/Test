@@ -1,0 +1,10 @@
+package Polymorphisms.overriding;
+
+public class Test {
+
+      public static void main(String[] args) {
+        Dog obj = new Dog();  // Parent reference, Child object
+        obj.sound(); 
+        obj.sound();   // calls Dog's sound() at runtime
+    }
+}
