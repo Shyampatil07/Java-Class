@@ -1,0 +1,10 @@
+package Polymorphisms.overriding;
+
+public class DogZoo extends Zoo {
+	@Override
+	Dog getAnimal() {
+		System.out.println("return Dog");
+		return new Dog();
+	}
+
+}
