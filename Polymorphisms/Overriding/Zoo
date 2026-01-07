@@ -1,0 +1,9 @@
+package Polymorphisms.overriding;
+
+public class Zoo {
+	Animal getAnimal() {
+		System.out.println("return Animal");
+		return new Animal();
+	}
+
+}
