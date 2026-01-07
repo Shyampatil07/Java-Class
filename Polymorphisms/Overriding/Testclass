@@ -1,0 +1,10 @@
+package Polymorphisms.overriding;
+
+public class Testclass {
+
+	public static void main(String[] args) {
+		Zoo z=new DogZoo();
+		Animal a=z.getAnimal();
+		a.sound();
+	}
+}
