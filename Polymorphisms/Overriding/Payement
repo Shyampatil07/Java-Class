@@ -1,0 +1,12 @@
+package Polymorphisms.overriding;
+
+public class Payement {
+	
+	void reward() {
+		System.out.println("reward is here");
+	}
+	void checkbal() {
+		 System.err.println("Sbi bsl is 533rs");
+	}
+
+}
