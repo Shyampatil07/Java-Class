@@ -1,0 +1,14 @@
+package Polymorphisms.overriding;
+
+public class Ppay  extends Payement{
+
+	@Override
+	void reward() {
+		System.out.println("2rs cashback");
+	}
+	@Override
+	void checkbal() {
+		// TODO Auto-generated method stub
+		super.checkbal();
+	}
+}
