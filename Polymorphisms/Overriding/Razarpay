@@ -1,0 +1,14 @@
+package Polymorphisms.overriding;
+
+public class Razarpay extends Payement{
+
+	@Override
+	void reward() {
+		System.out.println("on first Payment 20% off");
+	}
+	@Override
+	void checkbal() {
+		// TODO Auto-generated method stub
+		super.checkbal();
+	}
+}
