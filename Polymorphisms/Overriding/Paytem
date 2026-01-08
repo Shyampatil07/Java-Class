@@ -1,0 +1,15 @@
+package Polymorphisms.overriding;
+
+public class Paytem extends Payement{
+
+	@Override
+	void reward() {
+		System.out.println("couplen 50% off");
+	}
+	@Override
+	void checkbal() {
+		// TODO Auto-generated method stub
+		super.checkbal();
+	}
+	
+}
