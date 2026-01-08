@@ -1,0 +1,23 @@
+package Polymorphisms.overriding;
+
+public class Applic {
+	public static void main(String[] args) {
+		Payement p=new Payement();
+		p.reward();
+		p.checkbal();
+		p=new Gpay();
+		p.reward();
+		p.checkbal();
+		p=new Paytem();
+		p.reward();
+		p.checkbal();
+		p=new Ppay();
+		p.reward();
+		p.checkbal();
+		p=new Razarpay();
+		p.reward();
+		p.checkbal();
+		
+	}
+
+}
