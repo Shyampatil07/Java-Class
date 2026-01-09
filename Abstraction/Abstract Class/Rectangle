@@ -1,0 +1,15 @@
+package Abstraction.abstractclass;
+
+public class Rectangle extends Shape {
+
+	@Override
+	void area() {
+		System.out.println("area of Rectanglre");
+	}
+	@Override
+	void m1() {
+		System.out.println("rexch");
+		super.m1();
+	}
+
+}
