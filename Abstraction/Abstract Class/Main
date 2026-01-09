@@ -1,1 +1,15 @@
+package Abstraction.abstractclass;
 
+public class Main {
+	
+	public static void main(String[] args) {
+		Shape s;
+		s=new Circle();
+		s.area();
+		s.m1();
+		s=new Rectangle();
+		s.area();
+		s.m1();
+	}
+
+}
