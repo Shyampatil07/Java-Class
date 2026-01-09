@@ -1,0 +1,10 @@
+package Abstraction.abstractclass;
+
+
+
+public interface Size {
+
+	default void area() {
+	     System.out.println("Interface show()");
+	}
+}
