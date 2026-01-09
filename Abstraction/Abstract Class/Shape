@@ -1,0 +1,11 @@
+package Abstraction.abstractclass;
+
+public abstract class Shape {
+	
+	abstract void area();
+	
+	void m1() {
+		System.out.println("gfff");
+	}
+
+}
