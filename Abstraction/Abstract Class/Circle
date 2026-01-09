@@ -1,0 +1,15 @@
+package Abstraction.abstractclass;
+
+public class Circle extends Shape{
+
+	@Override
+	void area() {
+		System.out.println("area of circle");
+	}
+	@Override
+	void m1() {
+		System.out.println("ufh");
+		super.m1();
+	}
+
+}
