@@ -1,0 +1,14 @@
+package Abstraction;
+
+public class TEst {
+	public static void main(String[] args) {
+		Upi i;
+		i=new Gpay();
+		i.makePayment();
+		i=new Paytem();
+		i.makePayment();
+		i=new Phonepay();
+		i.makePayment();
+	}
+
+}
