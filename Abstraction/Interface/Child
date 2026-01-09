@@ -1,0 +1,19 @@
+package Abstraction;
+
+public class Child implements father,Mother {
+
+	@Override
+	public void cooking() {
+		System.out.println("magic");
+	}
+
+	@Override
+	public void legacy() {
+		System.out.println("parmapra");
+	}
+public static void main(String[] args) {
+	Child c=new Child();
+	c.cooking();
+	c.legacy();
+}
+}
