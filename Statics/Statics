@@ -1,0 +1,14 @@
+package statics;
+
+public class Staicst {
+	static int a =98;
+	int w;
+	String s;
+	public static void main(String[] args) {
+	
+		
+		
+	}
+	
+
+}
