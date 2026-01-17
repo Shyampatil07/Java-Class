@@ -1,0 +1,22 @@
+package Seraliabnle;
+
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class Porcess {
+	
+	public static void main(String[] args) throws Exception {
+		Employe e = new Employe(987, "kjf", "payil");
+		FileOutputStream s = new FileOutputStream("S:\\shyam.txt\\Shyam.txt.txt");
+		ObjectOutputStream v=new ObjectOutputStream(s);
+		
+		
+		v.writeObject(e);
+		System.out.println(e.age + "  "+e.name+"  "+e.surname);
+		v.close();
+		s.close();
+		System.out.println(" sucessful");
+	}
+
+}
