@@ -1,0 +1,22 @@
+package Seraliabnle;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+
+public class reversdeseriliza {
+	
+	public static void main(String[] args) throws Exception {
+		
+		FileInputStream d=new FileInputStream("S:\\shyam.txt\\Shyam.txt.txt");
+		ObjectInputStream c=new ObjectInputStream(d);
+		
+		Employe e=(Employe) c.readObject();
+		
+		System.out.println(e.age + "  "+e.name+"  "+e.surname);
+		c.close();
+		d.close();
+		
+	}
+
+}
