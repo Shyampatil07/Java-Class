@@ -1,0 +1,5 @@
+//Write a program to sort a 1D array in ascending order.	
+	
+	int [] arr= {4,967,74,6,75,97};
+	Arrays.sort(arr);
+	System.out.println(Arrays.toString(arr));
