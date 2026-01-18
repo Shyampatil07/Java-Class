@@ -1,0 +1,20 @@
+//Write a program to find duplicate elements in a 1D array.
+	   
+	   int [] arr= {4,967,9,74,6,75,97,98,9};
+	   boolean ischeck=false;
+	   for (int i = 0; i < arr.length; i++) {
+           for (int j = i + 1; j < arr.length; j++) {       	   
+        	   
+        	   if(arr[i]==arr[j]) {
+        		   System.out.println("duplicate " + arr[i]);
+        		   ischeck=true;
+        	   }        
+           }
+           }
+	   if(ischeck==true) {
+			  System.out.println("yes");
+		}else {
+		  System.out.println("no");
+		}
+
+	
