@@ -1,0 +1,5 @@
+//Create an array and print total number of elements using length.
+	
+	int [] arr= {1,7,9,8,87,897};
+	
+	System.out.println(arr.length);
