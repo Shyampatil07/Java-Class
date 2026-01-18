@@ -1,0 +1,19 @@
+  Write a program to merge two 1D arrays.  
+	   int [] arr1= {4,967,9,74,6,75,97,98};
+	   int [] arr2= {4,967,9,74,6,75,97,98};
+	   int[] merged = new int[arr1.length + arr2.length];
+       int index = 0;
+	   
+	   
+       for (int i = 0; i < arr1.length; i++) {
+           merged[index++] = arr1[i];
+       }
+	   
+	   
+	   for(int i=0; i<arr2.length;i++) {
+		   merged[index++]=arr2[i];
+	   }
+	   
+	   for(int i=0; i< merged.length;i++) {
+		   System.out.print(merged[i]+" ");
+	   }
