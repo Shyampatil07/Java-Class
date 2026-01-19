@@ -1,0 +1,33 @@
+ int[][][] arr = {
+//	            {
+//	                {1, 2, 3},
+//	                {4, 5, 6}
+//	            }
+//	        };
+//
+//	        for (int i = 0; i < arr.length; i++) {
+//	            for (int j = 0; j < arr[i].length; j++) {
+//    
+//	                int start = 0;
+//	                int end = arr[i][j].length - 1;
+//
+//	                while (start < end) {
+//	                    int temp = arr[i][j][start];
+//	                    arr[i][j][start] = arr[i][j][end];
+//	                    arr[i][j][end] = temp;
+//	                    start++;
+//	                    end--;
+//	                }
+//	            }
+//	        }
+//
+//	        // Print reversed array
+//	        for (int[][] matrix : arr) {
+//	            for (int[] row : matrix) {
+//	                for (int val : row) {
+//	                    System.out.print(val + " ");
+//	                }
+//	                System.out.println();
+//	            }
+//	        }
+//	 
