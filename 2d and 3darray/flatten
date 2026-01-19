@@ -1,0 +1,26 @@
+ int[][][] arr = {
+//	            {
+//	                {1, 2},
+//	                {3, 4},
+//	                {5,6}
+//	           
+//	            }
+//	        };
+//
+//	        int count = 0;
+//
+//	        for (int[][] matrix : arr)
+//	            for (int[] row : matrix)
+//	                count += row.length;
+//
+//	        int[] flat = new int[count];
+//	        int index = 0;
+//
+//	        for (int[][] matrix : arr)
+//	            for (int[] row : matrix)
+//	                for (int val : row)
+//	                    flat[index++] = val;
+//
+//	        System.out.println("Flattened 1D Array:");
+//	        for (int v : flat)
+//	            System.out.print(v + " ");
