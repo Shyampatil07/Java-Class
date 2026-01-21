@@ -1,0 +1,34 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+
+public class Coll {
+	public static void main(String[] args) {
+		
+	
+//		list.add(23);
+//		list.add(23);
+//		list.add("fs");
+//		list.add(23.98);
+//		list.add(true);
+//		
+//		
+//		
+//		System.out.println(list);
+		
+		
+//		LinkedList h=new LinkedList();
+//		h.g
+//		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
