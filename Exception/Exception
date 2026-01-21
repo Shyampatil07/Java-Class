@@ -1,0 +1,21 @@
+package exception;
+
+public class Excpetion {
+	
+	public static void main(String[] args) {
+		
+		System.out.println(6 / 2);
+		System.out.println(6 / 2);
+		try {
+			System.out.println(6 / 2);
+		}catch (Exception e) {
+			System.out.println("error");
+		}finally {
+			System.out.println("shyam");
+		}
+		System.out.println(6 / 2);
+		System.out.println(6 / 2);
+		
+	}
+
+}
