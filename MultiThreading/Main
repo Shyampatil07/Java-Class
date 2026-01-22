@@ -1,0 +1,11 @@
+package multithreading;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Multi m=new Multi();
+		m.start();
+		m.m1();
+	}
+
+}
