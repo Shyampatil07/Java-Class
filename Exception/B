@@ -1,0 +1,11 @@
+package exception;
+
+public class B {
+
+	public void b() throws Exception {
+		System.out.println("iug");
+		int afd=6;
+		A a=new A();
+		a.a();
+	}
+}
