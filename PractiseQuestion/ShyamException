@@ -1,0 +1,8 @@
+package practiseQuestion;
+
+public class ShyamException extends Exception {
+  
+	ShyamException(String s){
+		super(s);
+	}
+}
