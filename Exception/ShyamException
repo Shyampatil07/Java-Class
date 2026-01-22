@@ -1,0 +1,10 @@
+package exception;
+
+public class Shyam extends Exception {
+	
+	public Shyam(String s){
+		 super(s);
+	}
+
+	
+}
