@@ -1,0 +1,46 @@
+	
+//		String s="shyam";
+//		String S="";
+//		for(int i=s.length()-1;i>=0;i--) {
+//			S=S+s.charAt(i);
+//		}
+//		System.out.println("Original String: " + s);
+//        System.out.println("Reversed String: " + S);
+	}
+	
+//		super(n);// TODO Auto-generated constructor stub
+//	}
+//	@Override
+//	public void run() {
+//		System.out.println(getName()+
+//	           getPriority()
+//	        );
+//	}
+//	 public static void main(String[] args) {
+//		 PractiseQuestion t1 = new PractiseQuestion("Low Priority Thread");
+//		 
+//		 t1.setPriority(Thread.MAX_PRIORITY);
+//		 
+//		 t1.start();
+		 
+		 
+		 
+	 
+	
+//	 static void main() throws ShyamException  {
+//		
+//		int i=0;
+//		if(i==0) {
+//			throw new ShyamException("shyam error");
+//		}
+//	}
+//	 
+//	 public static void main(String[] args) {
+//		try {
+//			main();
+//		} catch (ShyamException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
+	 
