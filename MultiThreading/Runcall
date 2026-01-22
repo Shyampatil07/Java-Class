@@ -1,0 +1,14 @@
+package multithreading;
+
+public class RunCall {
+
+	public static void main(String[] args) {
+		Thread t=new Thread(new Runnale());
+		t.start();
+		Runnale r=new  Runnale();
+		r.m1();
+		r.m2();
+		
+		
+	}
+}
