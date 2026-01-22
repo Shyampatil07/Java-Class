@@ -1,0 +1,25 @@
+package practiseQuestion;
+
+public class PractiseQuestion {
+	
+	 static void main() throws ShyamException  {
+		
+		int i=0;
+		if(i==0) {
+			throw new ShyamException("shyam error");
+		}
+	}
+	 
+	 public static void main(String[] args) {
+		try {
+			main();
+		} catch (ShyamException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	 
+	
+}
+
+
