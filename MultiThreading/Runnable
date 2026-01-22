@@ -1,0 +1,45 @@
+package multithreading;
+
+public class Runnale implements Runnable,A,B {
+	@Override
+	public void run() {
+		for(int i=101;i<151;i++) {
+			System.out.println(i);
+			try {
+				Thread.sleep(500);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}}
+		}
+
+		@Override
+		public void m1() {
+			for(int i=1;i<51;i++) {
+				System.out.println(i);
+				try {
+					Thread.sleep(500);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			System.out.println("A Over");
+			
+		}
+	@Override
+	public void m2() {
+		for(int i=51;i<101;i++) {
+			System.out.println(i);
+			try {
+				Thread.sleep(500);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+
+		System.out.println("B Over");
+	}
+		
+	
+
+}
