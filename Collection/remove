@@ -1,0 +1,8 @@
+/Write a Java program to remove duplicate elements from a List.
+//		
+//		Set<Integer> st=new HashSet(a);
+//		
+//		 ArrayList<Integer> uniqueList = new ArrayList<>(st);
+//		 for (int num : uniqueList) {
+////	            System.out.println(num);
+//		 }
