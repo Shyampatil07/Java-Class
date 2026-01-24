@@ -1,0 +1,17 @@
+
+		 ArrayList<Integer> list = new ArrayList<>();
+	        list.add(674);
+	        list.add(765);
+	        list.add(97);
+	        list.add(876);
+
+	        int[] array = new int[list.size()];
+
+	        for (int i = 0; i < list.size(); i++) {
+	            array[i] = list.get(i); // auto-unboxing
+	        }
+
+	        System.out.println("Array elements:");
+	        for (int element : array) {
+	            System.out.println(element);
+	        }
