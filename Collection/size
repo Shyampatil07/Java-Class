@@ -1,0 +1,11 @@
+//Write a Java program to find the size of a List and print the first and last element.
+//		
+//		ArrayList<String> a=new ArrayList();
+//		a.add("ssss");
+//		a.add("kjh");
+//		a.add("sj");
+//		a.add("shw");
+//		System.out.println(a.size());
+//		System.out.println(a.getLast());
+//		System.out.println(a.getFirst());
+		
