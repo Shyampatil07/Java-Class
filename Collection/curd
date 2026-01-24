@@ -1,0 +1,11 @@
+//	Write a Java program to add, update, and remove elements from a List.
+//		System.err.println("Update");
+//		a.set(0, 30);
+//		a.set(4, 34);
+//		a.set(2, 97);
+//		System.out.println(a);
+//		
+//		System.err.println("remove");
+//		a.remove(3);
+//		System.out.println(a);
+		
