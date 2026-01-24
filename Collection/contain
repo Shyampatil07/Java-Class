@@ -1,0 +1,9 @@
+//	Write a Java program to check whether a given element exists in a List or not.	
+		
+		//System.out.println(a.contains("ssss"));
+		
+//		for-each loop
+//		for (String iu : a) {
+//			System.out.println(iu);
+//		}
+		
