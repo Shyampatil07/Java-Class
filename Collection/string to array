@@ -1,0 +1,8 @@
+/Write a Java program to convert a List into an array and print the array elements.
+//		 
+//		   String[] array = uniqueList.toArray(new String[0]);
+//		 
+//		   System.out.println("Array elements:");
+//	        for (String element : array) {
+//	            System.out.println(element);
+//	        }
