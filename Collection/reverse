@@ -1,0 +1,12 @@
+/Write a Java program to reverse elements of a List.
+		
+		 
+//		   Collections.reverse(uniqueList);
+//		 
+////		   Write a Java program to copy all elements from one List to another List.
+//		 
+//		   ArrayList<Integer> list2 = new ArrayList();
+//		   list2.addAll(uniqueList);
+//		 
+//		//   System.out.println("Copied List: " + list2);
+		 
