@@ -1,0 +1,23 @@
+package oopPractise;
+
+public class Child extends User implements Display{
+	 Book book;
+	Child(String name, int age,Book book) {
+		super(name, age);
+		this.book=book;
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void showDetails() {
+		// TODO Auto-generated method stub
+		 System.out.println("\n--- User & Book Details ---");
+	        System.out.println("Name   : " + name);
+	        System.out.println("Age    : " + age);
+	        System.out.println("Book ID: " + book.getId());
+	        System.out.println("Title  : " + book.getTitle());
+	        System.out.println("Author : " + book.getAuthor());
+	}
+	
+
+}
