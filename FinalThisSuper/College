@@ -1,0 +1,56 @@
+package superfinalthis;
+
+public class Thissuperfinal {
+
+	
+		
+		String clgName;
+
+		public Thissuperfinal() {
+			System.out.println("this is costr of parent class college...");
+		}
+
+		public Thissuperfinal(int clgId) {
+			this();
+			System.out.println("this is parameterised costr of parent class college... = " + clgId);
+		}
+
+		void staff() {
+			System.out.println("this is parent class method of college class  ");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+}
