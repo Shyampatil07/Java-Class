@@ -1,0 +1,38 @@
+	Create a HashSet and add 5 string values.	
+		
+		Set<String> s=new HashSet();
+		s.add("shyam");
+		s.add("Geeta");
+		s.add("Amol");
+		s.add("Ram");
+		s.add("Lade");
+		
+		System.out.println(s);
+		
+//Try to add duplicate elements in a Set and observe the output.
+		s.add("shyam");
+		s.add("Geeta");
+		s.add("Amol");
+		s.add("Ram");
+		s.add("Lade");
+		System.out.println(s);//no change no duplicate allow
+		
+// Display all elements of a Set using for-each loop.		
+		for (String string : s) {
+			System.out.println(string);
+		}
+		
+//Check whether a specific element exists in a Set.		
+		
+		System.out.println(s.contains("shyam"));
+		
+//Remove an element from a Set.		
+		
+		s.remove("shyam");
+		System.out.println(s);
+		
+//Find total number of elements in a Set.		
+		
+		System.out.println(s.size());
+		
+		
