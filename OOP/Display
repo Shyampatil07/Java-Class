@@ -1,0 +1,7 @@
+package oopPractise;
+
+public interface Display {
+
+	void showDetails();
+	
+}
