@@ -1,0 +1,36 @@
+//Create a HashMap and store Roll No as key and Name as value.		
+		
+		HashMap<Integer,String> m =new HashMap<Integer, String>();
+		m.put(123, "shyam");
+		m.put(07, "shyam");
+		m.put(18, "shyam");
+		m.put(10, "shyam");
+		m.put(7, "shyam");
+		System.out.println(m);
+		
+// Display all key–value pairs using entrySet().		
+		
+		for (Map.Entry<Integer, String> integer : m.entrySet()) {
+			System.out.println(integer.getKey()+" = "+integer.getValue());
+		}
+		
+// Retrieve a value using a key from Map.		
+		
+		System.out.println(m.get(7));
+		
+// Check whether a key exists in Map.		
+		
+	System.out.println(m.containsKey(10));	
+		
+// Check whether a value exists in Map.		
+		
+	System.out.println(m.containsValue("shyam"));	
+		
+//Remove an entry from Map using key.		
+		m.remove(10);
+		System.out.println(m);
+
+// Find the size of a Map.		
+		
+		System.out.println(m.size());
+		
