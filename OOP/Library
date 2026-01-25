@@ -1,0 +1,14 @@
+package oopPractise;
+
+public abstract class Library {
+	 public static final int LATE_FEE = 50;
+	abstract void issueBook() ;
+		// TODO Auto-generated method stub
+
+	
+	
+	abstract void returnBook() ;
+		// TODO Auto-generated method stub
+
+	
+}
