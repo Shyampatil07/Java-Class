@@ -1,0 +1,44 @@
+//Create an ArrayList and add 5 integers to it.		
+		
+//Write a program to display all elements of a List using for-each loop.		
+		
+		ArrayList ll=new ArrayList();
+		ll.add(98);
+		ll.add("sjua");
+		ll.add(75.8);
+		ll.add(78);
+		
+		for (Object object : ll) {
+			System.out.println(object);
+		}
+		
+//Add an element at a specific index in an ArrayList.		
+		
+		ll.add(3, "shyam");
+		System.out.println(ll);
+		
+// Remove an element from a List using index.		
+		
+		ll.remove(2);
+		System.out.println(ll);
+		
+// Find the size of a List.		
+		
+		System.out.println(ll.size());
+		
+//Check whether a List is empty or not.	
+		if(ll.isEmpty()) {
+			System.out.println("a List is empty");
+		}else {
+			System.out.println("a List is not empty");
+		}
+		
+//Retrieve an element from a List using get() method.		
+		System.out.println(ll.get(2));
+		
+		
+//Create a HashSet and add 5 string values.	
+		
+		
+		
+		
