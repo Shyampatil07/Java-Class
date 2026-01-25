@@ -1,0 +1,104 @@
+package oopPractise;
+
+import java.util.Scanner;
+
+public class Practise {
+	private int id;
+	private String name;
+	private double percentage;
+	
+public Practise(int id,String name,double per){
+	this.id=id;
+	this.name=name;
+	this.percentage=per;
+}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Double getPercentage() {
+		return percentage;
+	}
+
+	public void setPercentage(Double percentage) {
+		this.percentage = percentage;
+	}
+
+
+	public void displayDetails() {
+        System.out.println("\n--- Student Details ---");
+        System.out.println("ID        : " + id);
+        System.out.println("Name      : " + name);
+        System.out.println("Percentage: " + percentage);
+    }
+
+
+
+
+
+
+
+	public static void main(String[] args) {
+		
+//		1. Create a class Student with private variables:
+//			id, name, percentage.
+//			Use encapsulation (getters & setters)
+//			Use constructor and this to initialize values
+//			Take input using Scanner
+//			Print student details
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter student id");
+		int id=sc.nextInt();
+		
+		sc.nextLine();
+		
+		System.out.print("Enter Student Name: ");
+        String name = sc.nextLine();
+		
+        System.out.print("Enter Student Percentage: ");
+        double percentage = sc.nextDouble();
+		
+		Practise p=new Practise(id, name, percentage);
+		
+		   p.displayDetails();
+	        sc.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
