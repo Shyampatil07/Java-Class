@@ -1,0 +1,15 @@
+package oopPractise;
+
+public class Dog extends Animal {
+	
+	@Override
+	public void Sound() {
+		System.out.println("animal");
+	}
+	
+	public static void main(String[] args) {
+		Animal a=new Dog();
+		a.Sound();
+	}
+
+}
