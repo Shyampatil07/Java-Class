@@ -1,0 +1,16 @@
+package oopPractise;
+
+public class Animal {
+	
+//	4.Create class Animal with method sound().
+//	Create child classes Dog and Cat.
+//	Override sound()
+//	Call methods using parent reference
+
+	
+	public void Sound() {
+		// TODO Auto-generated method stub
+     System.out.println("Bark");
+	}
+
+}
