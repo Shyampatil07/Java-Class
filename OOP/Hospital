@@ -1,0 +1,48 @@
+package oopPractise;
+
+import java.util.ArrayList;
+
+public class Hospital {
+
+	ArrayList<Patient> patients=new ArrayList<>();
+	Doctor doctor;
+	Room room;
+	
+	public Hospital(Doctor doctor,Room room) {
+		// TODO Auto-generated constructor stub
+		this.doctor=doctor;
+		this.room=room;
+	}
+	
+	void addPatient(Patient patient) {
+        patients.add(patient);
+    }
+	
+	
+	 void printReport() {
+	        System.out.println("\n========== HOSPITAL REPORT ==========");
+
+	        System.out.println("\n--- Doctor Details ---");
+	        System.out.println("Doctor ID   : " + doctor.id);
+	        System.out.println("Doctor Name : " + doctor.name);
+	        System.out.println("Specialization : " + doctor.specialization);
+
+	        System.out.println("\n--- Room Details ---");
+	        System.out.println("Room No : " + room.roomno);
+	        System.out.println("Room Type : " + room.type);
+	        
+	        System.out.println("\n--- Patient Details ---");
+	        for (Patient p : patients) {
+	            System.out.println("\nPatient ID   : " + p.id);
+	            System.out.println("Patient Name : " + p.name);
+	            System.out.println("Age          : " + p.age);
+	            
+	            if (p.age < 12) {
+	                System.out.println("Assigned Doctor : Child Specialist");
+	            }
+	            if (p.age >= 60) {
+	                System.out.println("Note : Senior Citizen Priority");
+	            }
+	        }
+	    }
+}
