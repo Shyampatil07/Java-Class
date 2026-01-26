@@ -1,0 +1,24 @@
+package statics;
+
+public class Outer {
+//	Create program:
+//		Outer class
+//		static nested class
+//		method inside nested class prints a message
+//		Call nested class method from main.
+//	
+	static class Inner{
+		
+		void m1() {
+			System.out.println("inside the nested class");
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+//		Outer.Inner n=new Outer.Inner();
+//		n.m1();
+		
+	}
+
+}
