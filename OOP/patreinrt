@@ -1,0 +1,17 @@
+package oopPractise;
+
+public class Patient {
+	
+	int id;
+	String name;
+	int age;
+	
+	public Patient(int id,String name,int age) {
+		// TODO Auto-generated constructor stub
+		this.age=age;
+		this.id=id;
+		this.name=name;
+	}
+	
+
+}
