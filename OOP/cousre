@@ -1,0 +1,19 @@
+package oopPractise;
+
+public abstract class Course {
+	
+	String courseName;
+    int duration;
+    public Course(String courseName,int duration) {
+		this.courseName=courseName;
+				this.duration=duration;// TODO Auto-generated constructor stub
+	}
+    
+    abstract double fees();
+    
+    
+    
+    
+    
+    
+}
