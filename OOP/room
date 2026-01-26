@@ -1,0 +1,13 @@
+package oopPractise;
+
+public class Room {
+
+	int roomno;
+	String type;
+	
+public Room(int roomno, String type) {
+	// TODO Auto-generated constructor stub
+	this.roomno=roomno;
+	this.type=type;
+}	
+}
