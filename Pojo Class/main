@@ -1,0 +1,16 @@
+package pojoClass;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		PojoClass c= new PojoClass(1,"JSPm");
+		
+		Student s = new Student(123, "om", "pune", c);
+
+		System.out.println(s);
+		
+		
+	}
+
+}
