@@ -1,0 +1,60 @@
+package oopPractise;
+
+import java.util.Scanner;
+
+public class HospitalTest {
+	public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Doctor details
+        System.out.print("Enter Doctor ID: ");
+        int did = sc.nextInt();
+        sc.nextLine();
+
+        System.out.print("Enter Doctor Name: ");
+        String dname = sc.nextLine();
+
+        System.out.print("Enter Doctor Specialization: ");
+        String spec = sc.nextLine();
+
+        Doctor doctor = new Doctor(did, dname, spec);
+
+        // Room details
+        System.out.print("\nEnter Room Number: ");
+        int roomNo = sc.nextInt();
+        sc.nextLine();
+
+        System.out.print("Enter Room Type: ");
+        String roomType = sc.nextLine();
+
+        Room room = new Room(roomNo, roomType);
+
+        Hospital hospital = new Hospital(doctor, room);
+
+        // Multiple patients
+        System.out.print("\nEnter number of patients: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println("\nEnter details for Patient " + i);
+
+            System.out.print("Patient ID: ");
+            int pid = sc.nextInt();
+            sc.nextLine();
+
+            System.out.print("Patient Name: ");
+            String pname = sc.nextLine();
+
+            System.out.print("Patient Age: ");
+            int age = sc.nextInt();
+
+            Patient patient = new Patient(pid, pname, age);
+            hospital.addPatient(patient);
+        }
+
+        hospital.printReport();
+        sc.close();
+    }
+
+}
