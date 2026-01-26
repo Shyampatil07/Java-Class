@@ -1,0 +1,41 @@
+package pojoClass;
+
+public class PojoClass {
+	
+	int clgId;
+	String clgName;
+	
+	public PojoClass() {
+		// TODO Auto-generated constructor stub
+		System.out.println("pojoclass");
+	}
+	
+	public PojoClass(int clg,String clgName) {
+		super();
+            this.clgId=clg;
+            this.clgName=clgName;
+	}
+
+	public int getClgId() {
+		return clgId;
+	}
+
+	public void setClgId(int clgId) {
+		this.clgId = clgId;
+	}
+
+	public String getClgName() {
+		return clgName;
+	}
+
+	public void setClgName(String clgName) {
+		this.clgName = clgName;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return clgId+" "+clgName;
+	}
+
+}
