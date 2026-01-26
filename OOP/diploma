@@ -1,0 +1,16 @@
+package oopPractise;
+
+public class DiplomaCourse extends Course{
+
+	public DiplomaCourse(String courseName, int duration) {
+		super(courseName, duration);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	double fees() {
+		// TODO Auto-generated method stub
+		 return 30000;
+	}
+
+}
