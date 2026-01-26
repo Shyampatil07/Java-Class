@@ -1,0 +1,39 @@
+package statics;
+
+public class Student {
+	
+//	Create a class Student with:
+//		static variable → collegeName
+//		non-static → id, name
+//		method to display details
+//		Create 3 objects and show how collegeName is same for all.
+
+	
+	static String colname="utg";
+	int id;
+	String name;
+	
+	public Student(int id, String name,String colname) {
+		// TODO Auto-generated constructor stub
+		this.id=id;
+		this.name=name;
+		this.colname=colname;
+	}
+	
+	void display (){
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(colname);
+	}
+	
+	public static void main(String[] args) {
+		Student s=new Student(98, "shyam", "dgts");
+		System.out.println(s);
+		s.display();
+		Student s1=new Student(98, "shyam", "87hh");
+		s1.display();
+		Student s2=new Student(98, "shyam", "gfgu");
+		s2.display();
+	}
+
+}
