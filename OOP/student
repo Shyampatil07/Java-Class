@@ -1,0 +1,72 @@
+package oopPractise;
+
+import java.util.Scanner;
+
+public class Student {
+ 
+	int id;
+	String name;
+	Course course;
+	final double REGISTRATION_FEE=1000;
+	
+	public Student(int id,String name,Course course) {
+
+		this.id=id;
+		this.name=name;
+		this.course=course;
+		
+	}
+	
+	void display() {
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(course.courseName);
+		System.out.println(course.duration);
+		System.out.println(course.fees());
+		System.out.println(REGISTRATION_FEE);
+		System.out.println(course.fees()+REGISTRATION_FEE);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		  System.out.print("Enter Student ID: ");
+	        int id = sc.nextInt();
+	        sc.nextLine();
+
+	        System.out.print("Enter Student Name: ");
+	        String name = sc.nextLine();
+	        
+	        System.out.println("\nChoose Course Type:");
+	        System.out.println("1. Degree Course");
+	        System.out.println("2. Diploma Course");
+	        System.out.print("Enter choice: ");
+	        int choice = sc.nextInt();
+	        sc.nextLine();
+	        
+	        System.out.print("Enter Course Name: ");
+	        String courseName = sc.nextLine();
+	        
+	        System.out.print("Enter Course Duration (months): ");
+	        int duration = sc.nextInt();
+	        
+	        Course course;
+		
+	        if (choice == 1) {
+	            course = new DegreeCourse(courseName, duration);
+	        } else {
+	            course = new DiplomaCourse(courseName, duration);
+	        }
+		
+	        Student student = new Student(id, name, course);
+	        student.display();
+			
+	        sc.close();
+		
+	}
+}
