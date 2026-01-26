@@ -1,0 +1,15 @@
+package oopPractise;
+
+public class Doctor {
+
+	int id;
+	String name;
+	String specialization;
+	
+	public Doctor(int id,String name,String specialization) {
+		// TODO Auto-generated constructor stub
+		this.specialization=specialization;
+		this.id=id;
+		this.name=name;
+	}
+}
