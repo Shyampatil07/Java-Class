@@ -1,0 +1,48 @@
+package statics;
+
+public class Bank {
+	String g="gd";
+
+//Create a class Bank:
+//static variable: rateOfInterest
+//static method to change ROI
+//non-static method to display account balance + ROI
+//Call methods and observe behavior.
+
+	
+	static double roi=12.0;
+	  double balance;
+	
+	  static void changeROI(double newROI) {
+	        roi = newROI;
+	    }
+
+	    // non-static method to display balance and ROI
+	    void display() {
+	        System.out.println("Account Balance: " + balance);
+	        System.out.println("Rate of Interest: " + roi + "%");
+	        System.out.println("--------------------------");
+	    }
+
+	    public static void main(String[] args) {
+
+	        // Create bank accounts
+	        Bank acc1 = new Bank();
+	        acc1.balance = 50000;
+
+	        Bank acc2 = new Bank();
+	        acc2.balance = 100000;
+
+	        // Display before ROI change
+	        acc1.display();
+	        acc2.display();
+
+	        // Change ROI using static method
+	        Bank.changeROI(6.75);
+
+	        // Display after ROI change
+	        acc1.display();
+	        acc2.display();
+	    }
+
+}
