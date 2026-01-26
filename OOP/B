@@ -1,0 +1,20 @@
+package oopPractise;
+
+public class B extends A {
+
+	B(){
+		super();
+		System.out.println("child class constructor");
+	}
+	B(int x) {
+        super(10);    // Calls parent class constructor
+        System.out.println("Child class B parameterized constructor called");
+    }
+	
+	public static void main(String[] args) {
+
+        // Creating object of child class
+        B obj = new B();
+        B obj1 = new B(10);
+    }
+}
