@@ -1,0 +1,41 @@
+package string;
+
+public class A {
+
+	
+	public static void main(String[] args) {
+
+		// 1> Type 1 through string literal with same values
+//	String s1="shyam";
+//	String s2="shyam";
+//
+//		System.out.println(s1 == s2); // references
+//		System.out.println(s1.equals(s2)); // values
+//		
+//		String s3 = "python";
+//		
+//		System.out.println(s1 == s3); // references
+//	System.out.println(s1.equals(s2)); // values
+		
+		
+//	String str1 = new String("hello");
+//	String str2 = "hello";
+//
+//	System.out.println(str1.hashCode());
+//	System.out.println(str2.hashCode());
+//	System.out.println(str1 == str2); // references
+//	System.out.println(str1.equals(str2)); // Values
+//		
+		
+		String str4 = new String("hello");
+		String str5 = str4.intern();
+		String str6 = "hello";
+
+		System.out.println(str4 == str5);
+		System.out.println(str5 == str6);
+		
+		System.out.println(str6.substring(9));;
+		
+		
+}
+}
