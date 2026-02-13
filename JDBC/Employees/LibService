@@ -1,0 +1,28 @@
+package emplyoee.service;
+
+
+import emplyoee.Dao.LibDoa;
+
+public class LibService {
+	
+	public void insertData() throws Exception {
+		LibDoa db=new LibDoa();
+		db.insertData();
+	}
+	
+	public void updateData() throws Exception {
+		LibDoa db=new LibDoa();
+		db.updateData();
+	}
+	
+	public void deleteData() throws Exception {
+		LibDoa db=new LibDoa();
+		db.deleteData();
+	}
+	
+	public void fetchRecord() throws Exception {
+		LibDoa db=new LibDoa();
+		db.fetchRecord();
+	}
+
+}
