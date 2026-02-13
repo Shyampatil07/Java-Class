@@ -1,0 +1,28 @@
+package emplyoee.service;
+
+import emplyoee.Dao.EmpDao;
+
+public class EmpService {
+
+	public void insertData() throws Exception {
+		EmpDao db=new EmpDao();
+		db.insertData();
+	}
+	
+	public void updateData() throws Exception {
+		EmpDao db=new EmpDao();
+		db.updateData();
+	}
+	
+	public void deleteData() throws Exception {
+		EmpDao db=new EmpDao();
+		db.deleteData();
+	}
+	
+	public void fetchRecord() throws Exception {
+		EmpDao db=new EmpDao();
+		db.fetchRecord();
+	}
+	
+	
+}
