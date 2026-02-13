@@ -1,0 +1,15 @@
+package emplyoee.controller;
+
+import emplyoee.service.LibService;
+
+public class LibController {
+	
+	public static void main(String[] args) throws Exception {
+		LibService c=new LibService();
+		//c.insertData();
+       // c.updateData();
+		//c.deleteData();
+	c.fetchRecord();
+	}
+
+}
