@@ -1,0 +1,15 @@
+package emplyoee.controller;
+
+import emplyoee.service.EmpService;
+
+public class empControlller {
+	
+	public static void main(String[] args) throws Exception {
+		EmpService c=new EmpService();
+		//c.insertData();
+      //  c.updateData();
+	//	c.deleteData();
+//	c.fetchRecord();
+	}
+
+}
