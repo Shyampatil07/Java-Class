@@ -1,0 +1,106 @@
+package mock;
+
+public class Vowel {
+	
+	//2 approach
+	
+	 StringBuilder letters = new StringBuilder();
+     StringBuilder digits = new StringBuilder();
+     StringBuilder special = new StringBuilder();
+
+	public String vowel(String s) {
+
+        for (char ch : s.toCharArray()) {
+		if (Character.isLetter(ch)) {
+            letters.append(ch);
+        } else if (Character.isDigit(ch)) {
+            digits.append(ch);
+        } else {
+            special.append(ch);
+        }
+		
+        }
+		return "Letters: " + letters +"\n" +"Digits: " + digits+"\n" + "Special: " + special;
+	}
+	
+//    1approach 
+
+//public class Vowel {
+//	  String letters = "";
+//	  String digits = "";
+//      String special = "";
+//		public String vowel(String s) {
+//		
+//		for(int i=0;i<s.length();i++) {
+//		char ch = s.charAt(i);
+//		if(ch >='a' && ch <='z' ) {
+//			letters += ch;
+//		}else if(ch >= '0' && ch <= '9') {
+//			digits += ch;
+//		}else {
+//			  special += ch;
+//		}
+//		}
+//		return "Letters: " + letters +"\n" +"Digits: " + digits+"\n" + "Special: " + special;
+//		
+//	}
+			
+
+
+public static void main(String[] args) {
+	String s="shyamlade123@gmail.com";
+	Vowel v=new Vowel();
+	
+	System.out.println(v.vowel(s));
+//	System.out.println(s.length());
+}
+}
+
+
+
+
+-------------------------------------------------------------------------------------
+
+		//2approach
+//		for(int i=0;i<s.length();i++) {
+//		
+//			char ch = s.charAt(i);
+//			
+//			if(ch == 'a' || ch == 'e'|| ch =='i' ||ch == 'o' || ch =='u') {
+//				int ascii = (int) ch;
+//				System.out.println(ch + " = " + ascii);
+//			}
+			
+		//1approach
+//			if(s.charAt(i)=='a') {
+//				int a=(int)'a';
+//				System.out.println("a = "+ a  );
+//			}else if(s.charAt(i)=='e') {
+//				int a=(int)'e';
+//				System.out.println("e = "+ a  );
+//			}else if(s.charAt(i)=='i') {
+//				int a=(int)'i';
+//				System.out.println("i = "+ a  );
+//			}else if(s.charAt(i)=='o') {
+//				int a=(int)'o';
+//				System.out.println("o = "+ a  );
+//			}else if(s.charAt(i)=='u') {
+//				int a=(int)'u';
+//				System.out.println("u = "+ a  );
+//			}
+//		}
+		
+		
+	
+	 
+	
+	
+//	public static void main(String[] args) {
+//		String s="shyamlade@gmail.com";
+//		Vowel v=new Vowel();
+//		
+//		System.out.println(v.vowel(s););
+//	//	System.out.println(s.length());
+//	}
+	
+
